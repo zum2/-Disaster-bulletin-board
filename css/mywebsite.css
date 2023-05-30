@@ -1,0 +1,71 @@
+/* ページ全体のスタイル */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* メインコンテンツのスタイル */
+main {
+    padding: 100px 50px 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* フッターのスタイル */
+footer {
+    background-color: #ccc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}

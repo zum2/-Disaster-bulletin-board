@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mywebsite.css">
+    <!-- スマホ画面 -->
+    <style>
+        @media screen and (max-width: 600px) {
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav {
+                margin-top: 20px;
+            }
+
+            nav ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="My Website Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Current Status</a></li>
+                <li><a href="#">N/A / N/A N/A</a></li>
+                <!-- <li><a href="#">Lists</a></li> -->
+                <!-- has-childの本文は選択されたものにする、多分javascript -->
+                <li class="has-child"><a href="#">全社員</a>
+                    <ul>
+                    <li id="category1"><a href="#">部署1</a></li>
+                    <li id="category2"><a href="#">部署2</a></li>
+                    <li id="category3"><a href="#">部署3</a></li>
+                    <li id="emergency"><a href="#">緊急</a></li>
+                    <li id="allemployee"><a href="#">全社員</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ヘッダー終了 -->
+
+    <!-- メイン -->
+    <main>
+        <h1>Welcome to My Website</h1>
+        <p>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            リストを表示<br>
+            
+        </p>
+    </main>
+    <!-- メイン終了 -->
+
+    <!-- フッター -->
+    <footer>
+        <p>ここにボタン配置</p>
+    </footer>
+    <!-- フッター終了 -->
+</body>
+
+</html>
